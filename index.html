@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practica Bloque 3</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+
+function funcion_nombrecompleto() {
+    var nomape = document.getElementById("nombre").value + document.getElementById("apellido").value
+    alert ('bienvenido '+ nomape)
+}
+
+</script>
+<body>
+    <h1 class="azul">Practica Bloque 3</h1>
+    
+Introduce tu nombre: <input type="text" id="nombre">
+Introduce tu primer apellido: <input type="text" id="apellido" onchange="funcion_nombrecompleto()">
+</body>
+</html>
